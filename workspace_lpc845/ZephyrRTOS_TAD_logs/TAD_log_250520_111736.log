@@ -1,0 +1,6 @@
+"Task Aware Debugger for GDB" version 24.12.0 (202407110909)
+Copyright 2016-2023 NXP
+==================================
+11:17:29.614 INFO: [ZephyrRTOS] .config file could not be read [C:\Users\lauti\Documents\GitHub\freertos\curso-lse\workspace_lpc845\LPC845_Project\Debug\.config (El sistema no puede encontrar el archivo especificado)]
+11:17:29.614 INFO: [TadModel] DSF session ID 9 has started.
+11:17:36.401 INFO: [TadModel] DSF session ID 9 has ended.
