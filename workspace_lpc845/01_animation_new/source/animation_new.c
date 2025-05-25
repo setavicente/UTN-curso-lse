@@ -36,7 +36,7 @@ int main(void) {
 	gpio_pin_config_t out_config={ .outputLogic = 1, .pinDirection =kGPIO_DigitalOutput};///outconfig para settear como salida el pin
 	gpio_pin_config_t in_config={ .pinDirection =kGPIO_DigitalInput};//inconfig para settear como entrada un pin
 
-	
+
 	GPIO_PinInit(A1 , &out_config);//Puntero a la estructura del enum de los pines
 
 	GPIO_PinInit(USER , &in_config);//Puntero a la estructura del enum de los pines
@@ -55,7 +55,7 @@ int main(void) {
     while(1) {
     	int boton = GPIO_PinRead(USER);
     	if(boton==0){
-    	GPIO_PinWrite(A1, 0); //habilito el display 1 
+    	GPIO_PinWrite(A1, 0); //habilito el display 1
 
     	GPIO_PinWrite(SEG_B, 0);
     	for ( uint32_t i= 0; i < 50000; i++);//delay
