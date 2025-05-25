@@ -55,29 +55,29 @@ int main(void) {
     while(1) {
     	int boton = GPIO_PinRead(USER);
     	if(boton==0){
-    	GPIO_PinWrite(A1, 0); //habilito el display 1
+			GPIO_PinWrite(A1, 0); //habilito el display 1 (el circuito tiene un PNP que se satura con "0" en base)
 
-    	GPIO_PinWrite(SEG_B, 0);
-    	for ( uint32_t i= 0; i < 50000; i++);//delay
-    	GPIO_PinWrite(SEG_B, 1);
-    	GPIO_PinWrite(SEG_F, 0);
-    	for ( uint32_t i= 0; i < 50000; i++);//delay
-    	GPIO_PinWrite(SEG_F, 1);
-    	GPIO_PinWrite(SEG_E, 0);
-    	for ( uint32_t i= 0; i < 50000; i++);//delay
-    	GPIO_PinWrite(SEG_E, 1);
-    	GPIO_PinWrite(SEG_D, 0);
-    	for ( uint32_t i= 0; i < 50000; i++);//delay
-    	GPIO_PinWrite(SEG_D, 1);
-    	GPIO_PinWrite(SEG_C, 0);
-    	for ( uint32_t i= 0; i < 50000; i++);//delay
-    	GPIO_PinWrite(SEG_C, 1);
-    	GPIO_PinWrite(SEG_A, 0);
-    	for ( uint32_t i= 0; i < 50000; i++);//delay
-    	GPIO_PinWrite(SEG_A, 1);
+			GPIO_PinWrite(SEG_B, 0);
+			for ( uint32_t i= 0; i < 50000; i++);//delay
+			GPIO_PinWrite(SEG_B, 1);
+			GPIO_PinWrite(SEG_F, 0);
+			for ( uint32_t i= 0; i < 50000; i++);//delay
+			GPIO_PinWrite(SEG_F, 1);
+			GPIO_PinWrite(SEG_E, 0);
+			for ( uint32_t i= 0; i < 50000; i++);//delay
+			GPIO_PinWrite(SEG_E, 1);
+			GPIO_PinWrite(SEG_D, 0);
+			for ( uint32_t i= 0; i < 50000; i++);//delay
+			GPIO_PinWrite(SEG_D, 1);
+			GPIO_PinWrite(SEG_C, 0);
+			for ( uint32_t i= 0; i < 50000; i++);//delay
+			GPIO_PinWrite(SEG_C, 1);
+			GPIO_PinWrite(SEG_A, 0);
+			for ( uint32_t i= 0; i < 50000; i++);//delay
+			GPIO_PinWrite(SEG_A, 1);
     	}
     	else {
-    	GPIO_PinWrite(A1, 1);//desactivo el display 1
+    		GPIO_PinWrite(A1, 1);//desactivo el display 1(el circuito tiene un PNP que se corta con "1" en base)
     	}
     }
    return 0 ;
