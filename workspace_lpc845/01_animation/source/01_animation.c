@@ -56,7 +56,7 @@ int main(void) {
     	if(boton==0){
     	GPIO_PinWrite(A1, 0);
 
-    	GPIO_PinWrite(SEG_B, 0);//base, puerto, pin, lo que queres escribir(lees el pin y negas el estado)
+    	GPIO_PinWrite(SEG_B, 0);//base, puerto, pin
     	for ( uint32_t i= 0; i < 50000; i++);
     	GPIO_PinWrite(SEG_B, 1);
     	GPIO_PinWrite(SEG_F, 0);
