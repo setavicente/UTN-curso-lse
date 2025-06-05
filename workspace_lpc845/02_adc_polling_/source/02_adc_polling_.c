@@ -51,7 +51,7 @@ int main(void) {
 
     while(1) {
     	// Resultado de conversion
-    	adc_result_info_t adc_info;
+    	adc_result_info_t adc_info;//struct donde se guardan muchos datos del adc
     	// Inicio conversion
     	ADC_DoSoftwareTriggerConvSeqA(ADC0);
     	// Espero a terminar la conversion
@@ -59,8 +59,8 @@ int main(void) {
     	// Muestro resultado
     	PRINTF(
 			"El resultado del canal %ld en el PIO0_7 dio %d\n",
-			adc_info.channelNumber,
-			adc_info.result //funcion para exponer el resultado de la conversion
+			adc_info.channelNumber,//variable donde se guarda el num de canal
+			adc_info.result //variable donde se guarda el resultado de la conversion
     	);
     }
     return 0;
