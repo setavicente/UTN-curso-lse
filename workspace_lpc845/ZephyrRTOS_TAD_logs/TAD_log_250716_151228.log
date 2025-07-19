@@ -1,0 +1,8 @@
+"Task Aware Debugger for GDB" version 24.12.0 (202407110909)
+Copyright 2016-2023 NXP
+==================================
+15:11:56.469 INFO: [ZephyrRTOS] .config file could not be read [/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/Debug/.config (No such file or directory)]
+15:11:56.469 INFO: [TadModel] DSF session ID 4 has started.
+15:12:14.29 INFO: [ZephyrRTOS] .config file could not be read [/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/Debug/.config (No such file or directory)]
+15:12:14.29 INFO: [TadModel] DSF session ID 5 has started.
+15:12:28.969 INFO: [TadModel] DSF session ID 5 has ended.

@@ -1,0 +1,126 @@
+source/INTEGRADOR_FINAL.o source/INTEGRADOR_FINAL.d: \
+ ../source/INTEGRADOR_FINAL.c \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/board/board.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/board/clock_config.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_common.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/fsl_device_registers.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/LPC845.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_ACOMP.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/LPC845_COMMON.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/CMSIS/core_cm0plus.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/CMSIS/cmsis_version.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/CMSIS/cmsis_compiler.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/CMSIS/cmsis_gcc.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/system_LPC845.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/LPC845_features.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_ADC.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_CAPT.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_CRC.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_CTIMER.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_DAC.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_DMA.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_FLASH_CTRL.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_GPIO.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_I2C.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_INPUTMUX.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_IOCON.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_MRT.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_MTB.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_PINT.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_PMU.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_SCT.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_SPI.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_SWM.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_SYSCON.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_USART.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_WKT.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_WWDT.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_common_arm.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_clock.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_common.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_reset.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_gpio.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/utilities/debug_console_lite/fsl_debug_console.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_sctimer.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_swm.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_swm_connections.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_adc.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_power.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/board/pin_mux.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/board/clock_config.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/FreeRTOS.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/FreeRTOSConfig.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/projdefs.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/portable.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/deprecated_definitions.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/portmacro.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/mpu_wrappers.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/task.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/list.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/queue.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/task.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/semphr.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/queue.h \
+ /Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_i2c.h
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/board/board.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/board/clock_config.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_common.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/fsl_device_registers.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/LPC845.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_ACOMP.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/LPC845_COMMON.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/CMSIS/core_cm0plus.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/CMSIS/cmsis_version.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/CMSIS/cmsis_compiler.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/CMSIS/cmsis_gcc.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/system_LPC845.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/LPC845_features.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_ADC.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_CAPT.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_CRC.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_CTIMER.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_DAC.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_DMA.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_FLASH_CTRL.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_GPIO.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_I2C.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_INPUTMUX.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_IOCON.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_MRT.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_MTB.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_PINT.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_PMU.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_SCT.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_SPI.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_SWM.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_SYSCON.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_USART.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_WKT.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/device/periph2/PERI_WWDT.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_common_arm.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_clock.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_common.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_reset.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_gpio.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/utilities/debug_console_lite/fsl_debug_console.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_sctimer.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_swm.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_swm_connections.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_adc.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_power.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/board/pin_mux.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/board/clock_config.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/FreeRTOS.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/FreeRTOSConfig.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/projdefs.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/portable.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/deprecated_definitions.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/portmacro.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/mpu_wrappers.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/task.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/list.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/queue.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/task.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/semphr.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/freertos/inc/queue.h:
+/Users/vicenteseta/Documents/UTN-curso-lse/workspace_lpc845/INTEGRADOR_FINAL/drivers/fsl_i2c.h:
